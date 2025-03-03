@@ -114,11 +114,10 @@ module.exports = (webpackEnv, { mode }) => {
           'postcss-loader',
         ],
       },
-      // Maybe it will be required in the future
-      // {
-      //   test: /\.(svg|gif|png|jpg|jpeg)$/,
-      //   type: 'asset/resource',
-      // },
+      {
+        test: /\.(svg|gif|png|jpg|jpeg)$/,
+        type: 'asset/resource',
+      },
     ],
   }
 

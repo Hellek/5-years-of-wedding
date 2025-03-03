@@ -1,6 +1,5 @@
 import { createRoot } from 'react-dom/client'
 
-import '@models/init'
-import EntryPoint from '@layout/EntryPoint'
+import Layout from '@layout/Layout'
 
-createRoot(document.getElementById('root')!).render(<EntryPoint />)
+createRoot(document.getElementById('root')!).render(<Layout />)

@@ -15,7 +15,7 @@ module.exports = {
         '8xl': '90rem',
       },
       colors: {
-        black: '#333333',
+        'black-neue': '#303133',
       },
     },
     fontFamily: {

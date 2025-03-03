@@ -13,7 +13,6 @@ module.exports = {
   },
   plugins: [
     '@typescript-eslint',
-    'effector',
     'react',
     'simple-import-sort',
     'unused-imports',
@@ -24,8 +23,6 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    'plugin:effector/recommended',
-    'plugin:effector/scope',
   ],
   rules: {
     'max-len': ['warn', {
